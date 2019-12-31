@@ -1,14 +1,11 @@
 import React from 'react';
-import 'bulma/css/bulma.css'
-import './App.scss';
-import Header from './components/Header';
+import "./App.scss";
+import Routes from './routes';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Routes />
+  </div>
+)
 
 export default App;
