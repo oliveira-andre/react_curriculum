@@ -1,0 +1,5 @@
+@import "./stylesheets/CustomColors.scss", "./stylesheets/Header";
+
+.App {
+  background-color: $primary-color !important;
+}
