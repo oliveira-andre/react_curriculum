@@ -1,12 +1,16 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
-const Header = () => (
-  <Fragment>
+function Header(props) {
+  return (
     <div className="Header">
       <div className="container">
         <div className="navbar">
           <div className="navbar-brand">
-            <div className="navbar-burguer">
+            <div className="navbar-burger burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbar-menu"
+              onClick={() => props.setIsOpen(!props.isOpen)}>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
@@ -15,7 +19,7 @@ const Header = () => (
         </div>
       </div>
     </div>
-  </Fragment>
-);
+  );
+}
 
 export default Header;

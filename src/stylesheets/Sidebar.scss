@@ -1,0 +1,18 @@
+.bm-menu-wrap {
+  background: $primary-color;
+  color: white;
+
+  a {
+    color: white;
+    width: 100%;
+    font-weight: bold;
+
+    &:hover {
+      color: white;
+    }
+
+    &:visited {
+      color: white;
+    }
+  }
+}

@@ -1,5 +1,12 @@
 .Header {
+  border-bottom: 1px solid #5c6069;
+
   .navbar {
     background: $primary-color;
+  }
+
+  .navbar-burger {
+    display: block;
+    color: white;
   }
 }
